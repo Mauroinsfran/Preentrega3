@@ -1,0 +1,350 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@400;900&display=swap');
+
+@font-face {
+    font-family: open-sans-extrabold;
+    src: url('../assets/fonts/OpenSans-ExtraBold.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #e5e5e5;
+    
+}
+
+header{
+    background-color: #1b4472;
+    
+}
+
+nav {
+    display: inline-flex;
+    width: 1343px;
+    height: 180px;    
+}
+
+nav ol{
+    list-style: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+
+.form-nav-index{
+    list-style: none;
+    position: relative;
+    left: 550px;
+    bottom: 70px
+    
+
+}
+
+.lupita{
+    position: relative;
+    left: 175px;
+    bottom: 20px;
+    
+}
+
+.loggin{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color:#028484;
+    list-style: none;
+    font-family: open-sans-extrabold;
+    color: #f9ffff;
+    position: relative;
+    top: 50px;
+    left: 980px;
+}
+
+.avatar img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    left: 1100px;
+    list-style: none;
+
+}
+
+#menu{
+    font-family: open-sans-extrabold;
+    position: relative;
+    top: 100px;
+    left: 9px;
+    
+    
+}
+
+#menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 50px;
+    background-color:#028484;
+    list-style: none;
+
+}
+
+.etiquetas1{
+    position: relative;
+    right: 50%;
+    top: 9px;
+    
+}
+
+.etiquetas2{
+    position: relative;
+    top:  10px;
+    right: 30%;
+}
+
+.etiquetas3{
+    position: relative;
+    bottom: 58px;
+    left: 80%;
+}
+
+.etiquetas4{
+    position: relative;
+    bottom: 58px;
+    left: 90%;
+}
+
+.reportero{
+    text-align: left;
+    list-style: none;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+#reportero a img{
+    list-style: none;
+    width: 100px;
+    height: 100px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #f9ffff;
+    font-family: open-sans-extrabold;
+    font-size: 20px;
+}
+
+/*----main---*/
+
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+
+#noticias li {
+    text-align: center;
+}
+
+
+main ul li{
+    display: inline;
+}
+
+#dolar{
+    align-items: center;
+    margin: 20px;
+    display: inline-flex;
+}
+
+
+#dolar h3{
+    text-align: left;
+    margin: 20px;
+}
+
+#dolar p{
+    text-align: right;
+}
+
+#kun{
+    align-items: center;
+    margin: 20px;
+    display: inline-flex;
+}
+
+
+
+#kun h3{
+    text-align: left;
+    margin: 20px;
+}
+
+#roberto{
+    align-items: center;
+    margin: 20px;
+    display: flex;
+}
+
+
+#roberto h3{
+    text-align: left;
+    margin: 20px;
+}
+
+
+
+/*--footer--*/ 
+
+footer ol{
+    display: inline-flex;
+    position: relative;
+    left: 200px;
+    
+}
+
+.form{
+    margin: 10px;
+    padding: 10%;
+    list-style: none;
+    
+}
+
+.iframe{
+    margin: 5px;
+    padding: 5%;
+    padding-left: 30%;
+    list-style: none;
+}
+
+footer ul{
+    text-align: center;
+}
+footer ul li{
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    
+}
+
+.whatsapp img{
+    width: 50px;
+    height: 50px;
+}
+
+.twitter img{
+    width: 50px;
+    height: 50px;
+}
+
+.linkedin img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----NOSOTROS HTML-----*/
+
+
+/*--MAIN*/
+#nosotros{
+    text-align: center;
+}
+
+/*---FOOTER---*/
+
+
+
+.iframe-nosotros{
+    text-align: center;
+    position: relative;
+    left: 250px;
+    list-style: none;
+}
+
+.iframe-nosotros h4{
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----CONTACTOS*/
+
+#contactanos{
+    text-align: center;
+}
+
+#contactanos h1{
+    padding-top: 10%;
+}
+
+#contactanos p{
+    padding-top: 1%;
+}
+
+main ol{
+    display: inline-flex;
+}
+
+
+main .suscribite-contactos{
+    padding-top: 2%;
+}
+
+.form-contactos{
+    margin: 10px;
+    padding-left: 10%;
+}
+
+.iframe-contactos{
+    margin: 5px;
+    padding: 5%;
+    padding-left: 30%;
+    list-style: none;
+    text-align: center;
+}
+
+.encasoque{
+    text-align: center;
+}
+
+.mensaje{
+    text-align: center;
+
+}
