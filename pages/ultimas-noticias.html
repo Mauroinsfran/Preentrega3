@@ -1,69 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@400;900&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>🗒️Ultimas Noticias</title>
-</head>
-<body>
-     <!----header = encabezado va a ir menu de navegacion--->
-     <header>
-        <nav>
-            <ol id="reportero">
-                <li class="reportero">
-                    <a href="../index.html"><img src="../assets/reportero-de-noticias.png" alt=""></a>
-                </li>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@400;900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>🗒️NotiNews</title>
+        
+    
+    </head>
+    
+    <body>
+        
+        <header>
+    
+            <nav class="navbar" style="background-color: #1B4472;">
+                <div class="container">
+                  <a id="reportero" href="../index.html">
+                    <img src="../assets/reportero-de-noticias.png" alt="Bootstrap" width="100" height="100">
+                  </a>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+            </nav>
 
-                <li class="form-nav-index">
-                    <form action="/action_page.php">
-                    <label for="name"></label><br>
-                    <input type="text" id="name" name="busqueda" placeholder="Barra de Busqueda"><br>
-                    <input class="lupita" type="submit" value="🔎"></form>
-                </li>
-
-            </ol>
-
-            <ul>
-                <li class="loggin">
-                    <a  href="">Loggin</a>
-                </li>
-
-                <li class="avatar">
-                    <img src="../assets/avatar.png" alt="">
-                </li>
-            </ul>
-
-            <ul id="menu">
-
-                <li class="etiquetas1">
-                     <a href="./ultimas-noticias.html">Ultimas Noticias</a>
-                </li>
-
-                <li class="etiquetas2">
-                    <a href="./elmundo.html">El Mundo</a>
-                </li>
-
-                <li class="etiquetas3">
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-
-                <li class="etiquetas4">
-                    <a href="./contactos.html">Contactos</a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </header>
+            <nav class="navbar navbar-expand-lg" style="background-color: #1B4472;">        
+            
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-nav" style="display: contents;">
+                        <a class="column1" href="../pages/ultimas-noticias.html">Ultimas Noticias</a>
+                        <a class="column2" href="../pages/elmundo.html">El Mundo</a>
+                        <a class="column3" href="../pages/nosotros.html">Nosotros</a>
+                        <a class="column4" href="../pages/contactos.html">Contactos</a>
+                    </div>
+                </div>
+            </nav>
+        
+        </header>
  
-     <!-----main = todo contenido principal  de mi html o sitio---->
+     
      <main>
 
         <ol id="noticias">

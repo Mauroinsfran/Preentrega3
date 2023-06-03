@@ -6,13 +6,19 @@
     src: url('../assets/fonts/OpenSans-ExtraBold.ttf');
 }
 
+@media (min-width: 600px) {
+    nav {
+      flex-wrap: wrap;
+    }
+}
+
 *{
     padding: 0;
     margin: 0;
 }
 
 body{
-    background-color: #e5e5e5;
+    background-color: #f7f3f1;
     
 }
 
@@ -27,14 +33,6 @@ nav {
     height: 180px;    
 }
 
-nav ol{
-    list-style: none;
-}
-
-nav ul{
-    list-style: none;
-}
-
 
 .form-nav-index{
     list-style: none;
@@ -45,26 +43,6 @@ nav ul{
 
 }
 
-.lupita{
-    position: relative;
-    left: 175px;
-    bottom: 20px;
-    
-}
-
-.loggin{
-    display: inline;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50px;
-    background-color:#028484;
-    list-style: none;
-    font-family: open-sans-extrabold;
-    color: #f9ffff;
-    position: relative;
-    top: 50px;
-    left: 980px;
-}
 
 .avatar img{
     width: 50px;
@@ -98,45 +76,55 @@ nav ul{
 
 }
 
-.etiquetas1{
-    position: relative;
-    right: 50%;
-    top: 9px;
+nav{
+    height: 100px;
     
 }
 
-.etiquetas2{
-    position: relative;
-    top:  10px;
-    right: 30%;
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.etiquetas3{
-    position: relative;
-    bottom: 58px;
-    left: 80%;
+.navbar-nav a{
+    background-color: #028484;
+    border-radius: 50px;
+}
+#navbarNavAltMarkup{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-.etiquetas4{
-    position: relative;
-    bottom: 58px;
-    left: 90%;
+.column3{
+    border-radius: 50px;
+    border-color: #028484;
 }
 
-.reportero{
-    text-align: left;
-    list-style: none;
-    position: relative;
-    top: 10px;
-    left: 30px;
+.navbar-expand-lg{
+    height: 50px;
+    
 }
 
-#reportero a img{
-    list-style: none;
-    width: 100px;
-    height: 100px;
-
+.navbar-expand-lg .navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    
 }
+
+.navbar{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#reportero{
+    margin-right: 50%;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl{
+    max-width: 1299px;
+}
+
 
 a {
     text-decoration: none;
@@ -145,6 +133,12 @@ a {
     font-size: 20px;
 }
 
+
+
+
+
+
+
 /*----main---*/
 
 main{
@@ -152,57 +146,89 @@ main{
     font-style: normal;
 }
 
-#noticias li {
+
+
+.carousel-inner{
+    margin-top: 2%;
     text-align: center;
 }
 
-
-main ul li{
-    display: inline;
-}
-
-#dolar{
+.dolar{
     align-items: center;
     margin: 20px;
     display: inline-flex;
+    margin-top: 5%;
+   
 }
 
 
-#dolar h3{
+.dolar h3{
     text-align: left;
     margin: 20px;
 }
 
-#dolar p{
+.dolar p{
     text-align: right;
 }
 
-#kun{
+
+.kun{
     align-items: center;
     margin: 20px;
     display: inline-flex;
+    
 }
 
-
-
-#kun h3{
+.kun h3{
     text-align: left;
     margin: 20px;
 }
 
-#roberto{
+.roberto{
     align-items: center;
     margin: 20px;
     display: flex;
 }
 
 
-#roberto h3{
+.roberto h3{
     text-align: left;
     margin: 20px;
 }
 
+.moumental{
+    align-items: center;
+    margin-bottom: 5%;
+   
+}
 
+.monumental img{
+    width: 650px;
+    height: 468px;
+}
+
+
+.dolar h3{
+    text-align: left;
+    margin: 20px;
+}
+
+.dolar p{
+    text-align: right;
+}
+
+
+
+.cfk img{
+    width: 650px;
+    height: 390px;
+}
+
+
+.paso img{
+    width: 650px;
+    height: 368px;
+}
 
 /*--footer--*/ 
 
@@ -254,26 +280,6 @@ footer ul li{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*----NOSOTROS HTML-----*/
-
-
 /*--MAIN*/
 #nosotros{
     text-align: center;
@@ -293,14 +299,6 @@ footer ul li{
 .iframe-nosotros h4{
     padding-top: 30px;
 }
-
-
-
-
-
-
-
-
 
 
 
