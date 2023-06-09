@@ -384,10 +384,26 @@ main .suscribite-contactos {
 
 /*elmundo*/
 
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones:*/
+    [class*="row-3"] {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
 .col-md-auto img{
-    width: 435px;
+    width: 350px;
     height: auto;
 }
+
 
 .col-lg-3 img{
     width: 300px;
