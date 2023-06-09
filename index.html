@@ -2,148 +2,178 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@400;900&display=swap"
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@400;900&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>🗒️NotiNews</title>
-    
+  <link rel="stylesheet" href="./css/style.css">
+  <title>🗒️NotiNews</title>
+
 
 </head>
 
 <body>
-    
-    <header>
 
-        <nav class="navbar" style="background-color: #1B4472;">
-                <div class="container">
-                  <a id="reportero" href="#">
-                    <img src="./assets/reportero-de-noticias.png" alt="Bootstrap" width="100" height="100">
-                  </a>
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
-        </nav>
+  <header>
 
-        <nav class="navbar navbar-expand-lg" style="background-color: #1B4472;">        
-            
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav" style="display: contents;">
-                    <a class="column1" href="./pages/ultimas-noticias.html">Ultimas Noticias</a>
-                    <a class="column2" href="./pages/elmundo.html">El Mundo</a>
-                    <a class="column3" href="./pages/nosotros.html">Nosotros</a>
-                    <a class="column4" href="./pages/contactos.html">Contactos</a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-            </div>
-                
-        </nav>
-    </header>
+    <nav class="navbar" style="background-color: #1B4472;">
+      <div class="container">
+        <a id="reportero" href="#">
+          <img src="./assets/reportero-de-noticias.png" alt="Bootstrap" width="100" height="100">
+        </a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-    <main>
-        
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ravh-_Jbx90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NKSoqKgKXG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
-              <div class="carousel-item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ixec55yXhKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
-            </div>
+    <nav class="navbar navbar-expand-lg" style="background-color: #1B4472;">
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" style="display: contents;">
+          <a class="column1" href="./pages/ultimas-noticias.html">Ultimas Noticias</a>
+          <a class="column2" href="./pages/elmundo.html">El Mundo</a>
+          <a class="column3" href="./pages/nosotros.html">Nosotros</a>
+          <a class="column4" href="./pages/contactos.html">Contactos</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ravh-_Jbx90" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
         </div>
 
-        
-        <div class="container text-center">
-            <div class="row">
-              <div class="dolar">
-                <img src="../assets/dolar.jpg" alt="dolar">
-                <h3>Dólar hoy: El blue alcanzó los $490 y el Gobierno intervino fuerte para frenar a los financieros</h3>
-              </div>
-              <div class="col-6">
-                <h3>Kun Agüero le respondió a Pablo Duggan: “Cuando yo ganaba $2500, vos estarías en un barrio privado”</h3>
-                <img src="../assets/kun.jpg" alt="kun">
-              </div>
-              <div class="col">
-                <img src="../assets/roberto.jpg" alt="rebertorip">
-                <h3 >Murió Roberto “Tito” Urretavizcaya, expiloto de Turismo Carretera y otras categorías nacionales</h3>                
-              </div>
-            </div>
-            <div class="row">
-              <div class="monumental">
-                <img src="./assets/Murió un hincha de River que cayó de una tribuna del Monumental y se suspendió el partido ante Defensa y Justicia.jpg" alt="monumentaliti">
-                <h3 >Murió un hincha de River que cayó de una tribuna del Monumental y se suspendió el partido ante Defensa y Justicia</h3>
-              </div>
-              
-              <div class="cfk">
-                <img src="./assets/cfk.jpg" alt="cfk">
-                <h3>El candidato es el programa: Cristina no quiere que le pase lo mismo que con Fernández y blinda su propuesta económica</h3>
-              </div>
-              <div class="paso">
-                <img src="./assets/PASO ampliada.jpg" alt="PASO">
-                <h3>¿PASO ampliada? La reacción de Juntos por el Cambio en Córdoba y qué dicen Juan Schiaretti, Randazzo y Urtubey</h3>
-              </div>
-            </div>
-          </div>
-    </main>
+        <div class="carousel-item" data-bs-interval="2000">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NKSoqKgKXG4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
 
-    <footer>
-        <h3>SUSCRIBETE Y RECIBE NOTICIAS DIARIAS POR CORREO!!!</h3>
-        <ol>
-            <li class="form">
-                <form action="/action_page.php">
-                <label for="name">Nombre:</label><br>
-                <input type="text" id="name" name="name" ><br>
-                <label for="email">Email:</label><br>
-                <input type="text" id="lname" name="name"><br><br>
-                <input type="submit" value="Enviar"></form>
-            </li>
+        <div class="carousel-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ixec55yXhKs" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
 
-            <li class="iframe">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1231.9867619439685!2d157.73487375056624!3d51.861439833787195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x453c569a896724fb%3A0x1409fdf86611f613!2sRusia!5e0!3m2!1ses-419!2sar!4v1682635971527!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </li>
-        </ol>
+      </div>
 
-        <ul>
-            <li class="whatsapp">
-                <a href="https://www.whatsapp.com/?lang=es"><img src="./assets/whatsapp.png" alt=""></a>
-            </li>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-            <li class="twitter">
-                <a href="https://twitter.com/?lang=es"><img src="./assets/twitter.png" alt=""></a>
-            </li>
+    <div class="container text-center">
+      <div class="row">
 
-            <li class="linkedin">
-                <a href="https://ar.linkedin.com/"><img src="./assets/linkedin.png" alt=""></a>
-            </li>
-        </ul>
-    </footer>
+        <div class="col-2">
+          <img src="../assets/kun.jpg" alt="kun">
+          <p>Kun Agüero le respondió a Pablo Duggan: “Cuando yo ganaba $2500, vos estarías en un barrio privado</p>
+        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+        <div class="col-3">
+          <img src="../assets/roberto.jpg" alt="rebertorip">
+          <p>Murió Roberto “Tito” Urretavizcaya, expiloto de Turismo Carretera y otras categorías nacionales</p>
+        </div>
+
+        <div class="col-4">
+          <img
+            src="./assets/Murió un hincha de River que cayó de una tribuna del Monumental y se suspendió el partido ante Defensa y Justicia.jpg"
+            alt="monumentaliti">
+          <p>Murió un hincha de River que cayó de una tribuna del Monumental y se suspendió el partido ante Defensa y
+            Justicia</p>
+        </div>
+
+        <div class="col-5">
+          <img src="./assets/cfk.jpg" alt="cfk">
+          <p>El candidato es el programa: Cristina no quiere que le pase lo mismo que con Fernández y blinda su
+            propuesta económica</p>
+        </div>
+
+        <div class="col-6">
+          <img src="./assets/PASO ampliada.jpg" alt="PASO">
+          <p>¿PASO ampliada? La reacción de Juntos por el Cambio en Córdoba y qué dicen Juan Schiaretti, Randazzo y
+            Urtubey</p>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <h3>SUSCRIBETE Y RECIBE NOTICIAS DIARIAS POR CORREO!!!</h3>
+
+    <div class="container text-center">
+      <div class="row-1">
+        <div class="columna-1">
+          <form action="/action_page.php">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="lname" name="name"><br><br>
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+
+        <div class="columna-2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1231.9867619439685!2d157.73487375056624!3d51.861439833787195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x453c569a896724fb%3A0x1409fdf86611f613!2sRusia!5e0!3m2!1ses-419!2sar!4v1682635971527!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <ul>
+      <li class="whatsapp">
+        <a href="https://www.whatsapp.com/?lang=es"><img src="./assets/whatsapp.png" alt=""></a>
+      </li>
+
+      <li class="twitter">
+        <a href="https://twitter.com/?lang=es"><img src="./assets/twitter.png" alt=""></a>
+      </li>
+
+      <li class="linkedin">
+        <a href="https://ar.linkedin.com/"><img src="./assets/linkedin.png" alt=""></a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
